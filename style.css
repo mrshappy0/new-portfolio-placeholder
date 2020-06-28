@@ -43,13 +43,10 @@ header {
 
   header div#toggle span {
     background-color: black;
-    /* border: 1px solid black; */
   }
 
   header div#toggle {
-    /* border: 1px solid black; */
     padding: 2em;
-    /* background-color: rgba(252, 251, 251, 0.336); */
   }
 }
 
@@ -117,8 +114,6 @@ header #toggle span:nth-child(3) {
   width: 100%;
   min-height: 100vh;
   padding: 100px;
-  /* background: url(vermont-2.jpg); */
-  /* background-attachment: fixed; */
   background-size:cover;
   background-repeat: no-repeat;
   display: flex;
@@ -128,12 +123,26 @@ header #toggle span:nth-child(3) {
 }
 
 @media (min-width: 767px){
+  header div#toggle {
+    padding: 2em;
+  }
+
+  header #toggle span {
+    background-color: black;
+  }
+
   #navigation {
-    right: 0
+    right: -400px
+  }
+
+  #navigation.active {
+    z-index: 3;
+    right: 0;
   }
 
   .banner {
-    background: url(vermont-2.jpg);
+    background-image: white;
+    /* background: url(vermont-2.jpg); */
     background-attachment: fixed;
   }
 }
@@ -141,7 +150,7 @@ header #toggle span:nth-child(3) {
 
 @media (max-width: 767px) {
   body:before {
-    background: url(vermont-2.jpg) no-repeat center center;
+    /* background: url(vermont-2.jpg) no-repeat center center; */
   }
   #navigation {
     right: -250px;
@@ -292,8 +301,8 @@ section.project-content{
 
 .sci li a img {
   max-width: 70px;
-  filter: invert(1);
-  mix-blend-mode: hard-light;
+  /* filter: invert(1); */
+  /* mix-blend-mode: saturation; */
 }
 
 .logo-computer img {
