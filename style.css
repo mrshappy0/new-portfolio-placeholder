@@ -109,7 +109,7 @@ header #toggle span:nth-child(3) {
 
 @media (max-width: 767px) {
   #sec.banner {
-    padding: 130px 30px 150px 30px;
+    padding: 150px 0px 150px 0px;
   }
   div.content {
     font-size: 0.5em;

@@ -36,8 +36,8 @@ main {
 div.iframe-container {
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.534);
-  border: 2px solid rgba(0, 0, 0, 0.404);
+  background-color: rgba(255, 255, 255, 0.493);
+  /* border: 2px solid rgba(0, 0, 0, 0.404); */
 }
 @media (min-width: 767px) {
   main {
@@ -58,8 +58,19 @@ div.iframe-container {
     justify-content: space-evenly;
   }
   div.iframe-container {
-    padding: 3em 0 3em 0;
-    margin: 3em;
+    padding: 2em 0 2em 0;
+    margin: 0.5em;
     flex-direction: column;
+    min-width: 20%;
+    max-width: 70%;
+    align-self: center;
+  }
+
+  iframe.demo-video{
+    width: 70%;
+    align-self: center;
+  }
+  .iframe-container a {
+    align-self: center;
   }
 }
