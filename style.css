@@ -7,10 +7,6 @@
   font-family: "Nunito Sans", sans-serif;
 }
 
-body {
-  overflow: hidden;
-}
-
 header {
   position: absolute;
   top: 0;
@@ -92,7 +88,9 @@ header #toggle span:nth-child(3) {
   width: 100%;
   min-height: 100vh;
   padding: 100px;
-  background: url(vermont-2.jpg);
+  /* background: url(vermont-2.jpg); */
+  /* background-attachment: fixed; */
+  background-size:cover;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
@@ -100,8 +98,17 @@ header #toggle span:nth-child(3) {
   z-index: 2;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 767px){
   .banner {
+    background: url(vermont-2.jpg);
+    background-attachment: fixed;
+  }
+}
+
+
+
+@media (max-width: 767px) {
+  #sec.banner {
     padding: 130px 30px 150px 30px;
   }
   div.content {
@@ -170,6 +177,22 @@ header #toggle span:nth-child(3) {
   font-size: 2em;
   font-weight: 800;
   text-transform: uppercase;
+  margin: 15px 0;
+}
+
+a .r-arrows, a .l-arrows {
+  height: 100px;
+}
+
+.projects{
+  display: flex;
+  flex-direction: row;
+}
+
+section.project-content{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
 }
 
 .content {
