@@ -90,4 +90,10 @@ iframe.demo-video{
   .iframe-container a {
     align-self: center;
   }
+
+  #navigation.active {
+    z-index: 3;
+    right: 0;
+  }
+
 }

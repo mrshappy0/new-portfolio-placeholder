@@ -99,6 +99,10 @@ header #toggle span:nth-child(3) {
 }
 
 @media (min-width: 767px){
+  #navigation {
+    right: 0
+  }
+
   .banner {
     background: url(vermont-2.jpg);
     background-attachment: fixed;
@@ -106,8 +110,10 @@ header #toggle span:nth-child(3) {
 }
 
 
-
 @media (max-width: 767px) {
+  #navigation {
+    right: -250px;
+  }
   #sec.banner {
     padding: 150px 0px 150px 0px;
   }
@@ -150,7 +156,6 @@ header #toggle span:nth-child(3) {
 #navigation {
   position: fixed;
   top: 0;
-  right: 0;
   width: 400px;
   height: 100vh;
   background: #101a1f;
@@ -158,6 +163,7 @@ header #toggle span:nth-child(3) {
   display: grid;
   place-items: center;
   transition: 0.5s;
+  transition-timing-function: ease-in-out;
 }
 
 #navigation ul {
