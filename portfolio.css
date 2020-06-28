@@ -41,7 +41,7 @@ iframe.demo-video{
 .iframe-container a button{
   align-self: center;
   padding:1em;
-  font-weight: 700;
+  font-weight: 300;
   color:rgb(0, 0, 0);
   box-shadow:20px 20px rgb(0, 0, 0);
   cursor: pointer;
