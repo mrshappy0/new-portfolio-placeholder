@@ -24,6 +24,7 @@ div.iframe-container {
 }
 
 div.iframe-container {
+  border-radius: 5px;
   flex-direction: column;
 }
 

@@ -40,8 +40,18 @@ header {
     z-index: 3;
     right: 0;
   }
-}
 
+  header div#toggle span {
+    background-color: black;
+    /* border: 1px solid black; */
+  }
+
+  header div#toggle {
+    /* border: 1px solid black; */
+    padding: 2em;
+    /* background-color: rgba(252, 251, 251, 0.336); */
+  }
+}
 
 header #toggle {
   position: relative;
