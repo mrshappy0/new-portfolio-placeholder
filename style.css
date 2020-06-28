@@ -93,7 +93,6 @@ header #toggle span:nth-child(3) {
   min-height: 100vh;
   padding: 100px;
   background: url(vermont-2.jpg);
-  background-position: fixed;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
@@ -107,7 +106,7 @@ header #toggle span:nth-child(3) {
   }
   div.content {
     font-size: 0.5em;
-    margin: 2.5em 0;
+    margin: 3.5em 0;
   }
 
   .banner .content p {
@@ -130,8 +129,6 @@ header #toggle span:nth-child(3) {
   #sec .sci {
     bottom: 50px;
     flex-direction: row;
-    left: 30px;
-    bottom: 90px;
   }
 
   ul.sci li a img {
