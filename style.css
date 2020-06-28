@@ -36,12 +36,12 @@ header {
   header {
     padding: 30px 40px 0px 40px;
   }
+  #navigation.active {
+    z-index: 3;
+    right: 0;
+  }
 }
 
-#navigation.active {
-  z-index: 3;
-  right: 0;
-}
 
 header #toggle {
   position: relative;
